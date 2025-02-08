@@ -1,4 +1,43 @@
+:root {
+    --bg-primary: #34252f;
+    --text: #FE5F55;
+}
+
+/* --- Mobile First --- */
+
 html {
-    background-color: #34252f;
-    color: #FE5F55;
+    background-color: var(--bg-primary);
+    color: var(--text);
+    font-family: "REM", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Nova Mono", sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+/* --- Tablet --- */
+@media only screen and (min-width: 768px) {
+    .container.flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        max-width: 20%;
+    }
+
+    main {
+        max-width: 80%;
+    }
+}
+
+/* --- Desktop --- */
+@media only screen and (min-width: 1200px) {
+    body{
+        max-width: 1200px; 
+    }
 }
