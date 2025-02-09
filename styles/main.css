@@ -1,6 +1,8 @@
 :root {
-    --bg-primary: #34252f;
-    --text: #FE5F55;
+    --bg-primary: #21181f;
+    --text: #CCC;
+    --emphasis: #D34F73;
+    --action: #bbd072;
 }
 
 /* --- Mobile First --- */
@@ -13,6 +15,11 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Nova Mono", sans-serif;
+    color: var(--emphasis);
+}
+
+a, button {
+    color: var(--action);
 }
 
 body {
