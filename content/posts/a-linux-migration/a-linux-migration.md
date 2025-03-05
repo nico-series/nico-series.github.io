@@ -49,7 +49,8 @@ My first experiment was with Mint: I ran it from a flash drive and surprise, sur
 My second experiment was with Pop. I decided I wanted to give it a fairer shake and actually run it from a partition on my machine rather than starving it on a flash drive as I had with Mint. I set up a small partition for Pop alongside my Windows installation partition and began the install. Pop comes with GNOME or (soon) **COSMIC**. It is an amicable install complete with GUI, hand-holding, and minimal questions. At this point I ran into two issues:
 1. After playing with GNOME, I realized I was more interested in trying KDE
 2. I could no longer access my Windows install
-The first was a useful realization, but the second was and is a bit of an issue. I discovered at that point that Pop is in theory fairly easy to dual boot with Windows if you are using **EFI** partitions. _I did not do that._ I was using a legacy **BIOS** which I have not yet been willing to upgrade to **UEFI** out of fear of an incredibly unlikely but not unprecedented temporary and localized power outage. A UPS would be nice.
+
+The first was a useful realization, but the second was and is a bit of an issue. I discovered at that point that Pop is in theory fairly easy to dual boot with Windows if you are using **EFI** partitions. _I did not do that._ I was using a legacy **BIOS** which I have not yet been willing to upgrade to **UEFI** out of fear of an incredibly unlikely but not unprecedented temporary and localized power outage. Universe, I would like to request a UPS for my birthday. 
 # Pivoting to Arch
 While building up courage to convert my BIOS to UEFI, I decided to go in a completely new direction and install **Arch Linux** on another drive. This is a complete pivot in that it is not even slightly beginner friendly, and it has also gone _surprisingly well_.
 
