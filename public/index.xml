@@ -6,8 +6,15 @@
     <description>Recent content on nico-series</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Nico-Series</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I am Kristen MacIsaac, a developer and creative, and Nico-Series is a personal project of mine. If you&amp;rsquo;re here, you are likely visiting either because I invited you to do so, or you found this site via my &lt;a href=&#34;https://www.linkedin.com/in/kristen-macisaac-28949a120/&#34;&gt;Linkedin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Professionally I have roughly 5 years of experience working in web development and software engineering. During my personal time, I enjoy wiki diving every topic under the sun, gardening, painting, cooking, and gaming. In both professional and personal experience, I would say I&amp;rsquo;m a bit of a generalist. I&amp;rsquo;d like to think I&amp;rsquo;m a jack of all trades, but the leaky pipe under the kitchen sink says otherwise - I believe I just have to replace and reseal the union but &lt;em&gt;I&amp;rsquo;m not certain&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Linux Migration</title>
       <link>http://localhost:1313/posts/a-linux-migration/a-linux-migration/</link>

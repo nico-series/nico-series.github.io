@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upkeep on nico-series</title>
+    <link>http://localhost:1313/tags/upkeep/</link>
+    <description>Recent content in Upkeep on nico-series</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/upkeep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Nico-Series</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I am Kristen MacIsaac, a developer and creative, Nico-Series is a personal project of mine. If you&amp;rsquo;re here, you are likely visiting either because I invited you to do so, or you found this site via my &lt;a href=&#34;https://www.linkedin.com/in/kristen-macisaac-28949a120/&#34;&gt;Linkedin&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
