@@ -2,7 +2,8 @@ baseURL = 'https://nico-series.github.io/'
 languageCode = 'en-us'
 title = 'nico-series'
 theme = 'archie-nico-ver'
-mode = 'dark'
+[params]
+    mode = 'toggle'
 
 [[menu.main]]
 name = "Home"

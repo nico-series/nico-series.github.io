@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on nico-series</title>
+    <link>http://localhost:1313/tags/development/</link>
+    <description>Recent content in Development on nico-series</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Linux Migration</title>
+      <link>http://localhost:1313/posts/a-linux-migration/a-linux-migration/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-linux-migration/a-linux-migration/</guid>
+      <description>&lt;h1 id=&#34;priorities&#34;&gt;Priorities&lt;/h1&gt;&#xA;&lt;p&gt;For quite a long time, I&amp;rsquo;ve been a Windows user. I paint, I game, I use Microsoft staples like Visual Studio and Office. At work my story is more of the same, with the addition of Microsoft 365 and Teams. I&amp;rsquo;d say I&amp;rsquo;ve gotten pretty complacent with my apps &lt;em&gt;just working&lt;/em&gt; and Windows Defender taking care of preventing potential nasties from running loose on my machine.&lt;/p&gt;&#xA;&lt;p&gt;Lately, I&amp;rsquo;ve been a bit less content with that arrangement. Like media, tools have &lt;em&gt;audiences&lt;/em&gt; or intended user bases. Tools as they are designed make assumptions about their users and cater to those assumptions. Windows assumes that its users prioritize convenience and are willing to exchange increasing degrees of autonomy and data for it. You can tinker with how Windows operates, but tinker-ability isn&amp;rsquo;t its priority. If you are living in the Windows ecosystem you likely aren&amp;rsquo;t really thinking about alternative desktops or audio or video drivers. Over the last few years I&amp;rsquo;ve come to value these things which are less prioritized more and more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

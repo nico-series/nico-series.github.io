@@ -1,0 +1,183 @@
+/* --- GENERAL --- */
+:root{
+--primary: #CF97EF; /* interactable elements */
+--secondary: #B8E887; /* accent color */
+--highlight: #3B334E;
+--text: #CECAE0;
+--background: #202124;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+}
+
+::-moz-selection,
+::selection {
+  background: var(--secondary);
+  color: var(--background);
+  text-shadow: none;
+}
+
+h1::before {
+  color: var(--primary);
+  content: "# ";
+}
+
+h2::before {
+  color: var(--primary);
+  content: "## ";
+}
+
+h3::before {
+  color: var(--primary);
+  content: "### ";
+}
+
+h4::before {
+  color: var(--primary);
+  content: "#### ";
+}
+
+h5::before {
+  color: var(--primary);
+  content: "##### ";
+}
+
+h6::before {
+  color: var(--primary);
+  content: "###### ";
+}
+
+.toc {
+  background-color: var(--highlight);
+  color: white;
+}
+
+a {
+  border-bottom: 3px solid var(--primary);
+  color: inherit;
+}
+
+a:hover {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+.site-description a {
+  color: var(--text);
+}
+
+.site-description a:hover {
+  color: var(--background);
+}
+
+.tags a {
+  border-bottom: 3px solid var(--primary);
+}
+
+.tags a:hover {
+  background-color: var(--primary);
+  color: black;
+}
+
+.site-title a {
+  text-decoration: none !important;
+}
+
+.header nav,
+.footer {
+  border-color: #333;
+}
+
+.soc:hover {
+  color: var(--background);
+}
+
+.draft-label {
+  color: var(--background);
+  background-color: var(--secondary);
+}
+
+/* --- CODE BLOCK --- */
+code {
+  background-color: var(--highlight);
+  color: white;
+  text-decoration: bold;
+  padding: 0.1em 0.2em;
+}
+
+pre {
+  background-color: var(--highlight);
+  line-height: 1.4;
+  padding: 1em;
+}
+
+pre::before,
+pre::after {
+  border-color: var(--background)
+}
+
+/* --- CALLOUT --- */
+.callout a:hover {
+  color: var(--background);
+}
+
+.callout-custom {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.callout.callout-custom a {
+  border-bottom: 3px solid var(--text);
+}
+
+.callout.callout-custom a:hover {
+  background-color: var(--text);
+  color: var(--background);
+}
+
+/* --- PRE CODE LANGUAGE TAG --- */
+.highlight {
+  background-color: var(--highlight);
+}
+
+.highlight pre code[class*="language-"]::before {
+  background-color: var(--background);
+}
+
+.highlight pre code.language-js::before {
+  content: "js";
+}
+
+.highlight pre code.language-yaml::before {
+  content: 'yaml';
+}
+
+.highlight pre code.language-shell::before {
+  content: 'shell';
+}
+
+.highlight pre code.language-json::before{
+  content: 'json';
+}
+
+.highlight pre code.language-py::before {
+  content: 'py';
+}
+
+.highlight pre code.language-css::before{
+  content: 'css';
+}
+
+.highlight pre code.language-go::before{
+  content: 'go';
+}
+
+.highlight pre code.language-md::before{
+  content: 'markdown';
+}
+
+.highlight pre code.language-ts::before{
+  content: 'ts';
+}

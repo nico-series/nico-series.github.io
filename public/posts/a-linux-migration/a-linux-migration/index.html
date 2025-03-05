@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>A Linux Migration - nico-series</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Recently I&#39;ve been wondering if I should continue using Windows for my personal projects or try something else." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/a-linux-migration/a-linux-migration/">
+  <meta property="og:site_name" content="nico-series">
+  <meta property="og:title" content="A Linux Migration">
+  <meta property="og:description" content="Recently I&#39;ve been wondering if I should continue using Windows for my personal projects or try something else.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-04T00:00:00+00:00">
+    <meta property="article:tag" content="Development">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Linux Migration">
+  <meta name="twitter:description" content="Recently I&#39;ve been wondering if I should continue using Windows for my personal projects or try something else.">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.05add88b140c551d3342d362afbb2936d0eebffb66acde8d478049965daeabae.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.cd400c61e86379ce76d2c41c165c97bd914da6f09829ce5cc87a89e98110cf3a.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">nico-series</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun" />
+</svg></span>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">A Linux Migration</h1>
+          <div class="meta">Posted on Mar 4, 2025</div>
+        </div>
+        
+        <section class="body">
+          <h1 id="priorities">Priorities</h1>
+<p>For quite a long time, I&rsquo;ve been a Windows user. I paint, I game, I use Microsoft staples like Visual Studio and Office. At work my story is more of the same, with the addition of Microsoft 365 and Teams. I&rsquo;d say I&rsquo;ve gotten pretty complacent with my apps <em>just working</em> and Windows Defender taking care of preventing potential nasties from running loose on my machine.</p>
+<p>Lately, I&rsquo;ve been a bit less content with that arrangement. Like media, tools have <em>audiences</em> or intended user bases. Tools as they are designed make assumptions about their users and cater to those assumptions. Windows assumes that its users prioritize convenience and are willing to exchange increasing degrees of autonomy and data for it. You can tinker with how Windows operates, but tinker-ability isn&rsquo;t its priority. If you are living in the Windows ecosystem you likely aren&rsquo;t really thinking about alternative desktops or audio or video drivers. Over the last few years I&rsquo;ve come to value these things which are less prioritized more and more.</p>
+<h1 id="alternatives">Alternatives</h1>
+<p>This brings me to alternatives. I&rsquo;ve used <strong>macOS</strong> on a few occasions for media and app development, and while it is nice for both I wouldn&rsquo;t say it satisfies my desire for tinkering. This leaves <strong>Linux-based</strong> operating systems, which have apparently changed dramatically since my college Unix and Ubuntu course in 2012 or 2013. From my position on the periphery, it seemed to have the reputation of being for specific development or infrastructure uses only. Scary! Not for beginners!</p>
+<p>A decade later I am both not a beginner and the Linux space has become a lot more varied in what it offers, how it markets itself, and who it is for. Top 10 lists of distributions include suggestions for users coming from Windows or macOS, users that want to game, and those pursuing creative projects. If anything is discouraging, it is the overabundance of choice. Casually wiki-diving for the distributions and tech available, you can quickly end up with a map that looks like this:</p>
+<figure class="ma0 w-75"><img src="../linux-obsidian-local-graph.png"
+    alt="A local graph in the Obsidian note-taking app showing how many topics tie back to the Linux kernel">
+</figure>
+
+<p>I built this map slowly over the course of months, and I can see how to someone else looking to get started with a migration it might look like a massive learning curve. I&rsquo;ll boil down what I&rsquo;ve learned to a couple statements that are both more representative and more optimistic:</p>
+<ol>
+<li>Learning as you go is perfectly fine</li>
+<li>You should play with your tech, your PC is probably not going to explode</li>
+<li>If you install something and don&rsquo;t like it, try something else</li>
+</ol>
+<h1 id="scooting-on-over">Scooting on Over</h1>
+<p><del>Once I&rsquo;d filled in my charts and become a SME</del> Once I&rsquo;d decided I should just get on with it, I needed to tinker, specifically to install and run one of these distributions. The first step was identifying which apps I could bring with me and which ones you I couldn&rsquo;t. In my case, the only real casualty was <strong>Corel Painter</strong>, which used .riff files which I had to convert to something I could open with another app. I also used <strong>Scrivener</strong>, but <strong>Wine</strong> translation was available for it so in theory I&rsquo;d be safe to leave those files be. <em>I backed everything I cared about up</em>.</p>
+<p>I decided on a few options based on the following priorities:</p>
+<ul>
+<li>Versatility, it should be good for entertainment AND work</li>
+<li>Favor popular and supported distros to build confidence</li>
+<li>Customization should be encouraged</li>
+</ul>
+<p>For me that resulted in 3 options:</p>
+<ol>
+<li><strong>Linux Mint</strong> for its friendliness to Windows users</li>
+<li><strong>Pop!_OS</strong> for its friendliness to games and my NVIDIA GPU</li>
+<li><strong>Fedora</strong> on recommendation from a developer friend</li>
+</ol>
+<p>There are 3 ways to run a secondary operating system: live boot from a USB, dual booting, and running in a VM, each with their own limitations. Briefly:</p>
+<ol>
+<li>Local VMs are low commitment and good for quickly trying out many options but tend to be slow and limited in what hardware they can access</li>
+<li>Live USBs are portable and can fully utilize hardware but require lightweight operating systems or else they will be slow</li>
+<li>Dual booted OSs have full access to resources and will be the best performing but require a committed installation</li>
+</ol>
+<p>My first experiment was with Mint: I ran it from a flash drive and surprise, surprise - Mint was slow. Not because Mint is slow, but because it was an inappropriate choice for a live USB. It was also familiar. I spent enough time poking around the desktop and menus to realize that maybe, with this change, I wanted to step a bit further from what I was used to.</p>
+<p>My second experiment was with Pop. I decided I wanted to give it a fairer shake and actually run it from a partition on my machine rather than starving it on a flash drive as I had with Mint. I set up a small partition for Pop alongside my Windows installation partition and began the install. Pop comes with GNOME or (soon) <strong>COSMIC</strong>. It is an amicable install complete with GUI, hand-holding, and minimal questions. At this point I ran into two issues:</p>
+<ol>
+<li>After playing with GNOME, I realized I was more interested in trying KDE</li>
+<li>I could no longer access my Windows install
+The first was a useful realization, but the second was and is a bit of an issue. I discovered at that point that Pop is in theory fairly easy to dual boot with Windows if you are using <strong>EFI</strong> partitions. <em>I did not do that.</em> I was using a legacy <strong>BIOS</strong> which I have not yet been willing to upgrade to <strong>UEFI</strong> out of fear of an incredibly unlikely but not unprecedented temporary and localized power outage. A UPS would be nice.</li>
+</ol>
+<h1 id="pivoting-to-arch">Pivoting to Arch</h1>
+<p>While building up courage to convert my BIOS to UEFI, I decided to go in a completely new direction and install <strong>Arch Linux</strong> on another drive. This is a complete pivot in that it is not even slightly beginner friendly, and it has also gone <em>surprisingly well</em>.</p>
+<p><em>To be continued</em></p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/development">development</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2025  <a
+      href="https://github.com/nico-series/archie-nico-ver">Archie (Archie Nico Ver) Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>
