@@ -1,7 +1,8 @@
 baseURL = 'https://nico-series.github.io/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'nico-series'
 theme = 'archie-nico-ver'
+copyright = "© nico-series"
 [params]
     mode = 'toggle'
 
