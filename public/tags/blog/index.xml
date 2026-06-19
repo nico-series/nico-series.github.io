@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Blog on nico-series</title>
-		<link>http://localhost:1313/tags/blog/</link>
+		<link>https://nico-series.github.io/tags/blog/</link>
 		<description>Recent content in Blog on nico-series</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -14,12 +14,12 @@
 		
 			<lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://nico-series.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Update 2026</title>
-				<link>http://localhost:1313/posts/update-2026/</link>
+				<link>https://nico-series.github.io/posts/update-2026/</link>
 				<pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/update-2026/</guid>
+				<guid>https://nico-series.github.io/posts/update-2026/</guid>
 				<description>&lt;p&gt;Hi all!&lt;/p&gt;&#xA;&lt;p&gt;If this is the most recent post you&amp;rsquo;re seeing, you&amp;rsquo;ll note that most of my activity on this blog occurred a little over a year ago. It consisted of setup, theming, and 3/4 of the posts are about food.&lt;/p&gt;&#xA;&lt;p&gt;During the intervening time frame, I&amp;rsquo;ve moved a few times, studied, worked a few short jobs, and immigrated to Canada! I&amp;rsquo;m currently a little more settled, with quite a lot of time to continue working on my skills, career, and this blog, so expect to hear from me a lot more. I&amp;rsquo;ve got a number of ideas cooking concerning documenting my forays into the following topics:&lt;/p&gt;</description>
 			</item>
 	</channel>
