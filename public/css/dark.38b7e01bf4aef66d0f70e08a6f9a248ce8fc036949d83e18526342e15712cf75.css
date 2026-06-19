@@ -1,0 +1,201 @@
+/* Dark theme overrides */
+body {
+  color: var(--color-text-dark, #CECAE0);
+  background-color: var(--color-background-dark, #202124);
+}
+
+::-moz-selection {
+  background: var(--color-primary-dark, #CF97EF);
+  color: #000000;
+  text-shadow: none;
+}
+
+::-moz-selection,
+::selection {
+  background: var(--color-primary-dark, #CF97EF);
+  color: #000000;
+  text-shadow: none;
+}
+
+hr {
+  border-block-start: 3px dotted var(--color-border-dark, #15B995);
+}
+
+code {
+  background-color: var(--color-background-code-dark, #3B334E);
+  color: var(--color-text-dark, #CECAE0);
+}
+
+pre {
+  background-color: var(--color-background-pre-dark, #3B334E);
+  border-color: var(--color-border-dark, #15B995);
+}
+
+blockquote {
+  border-color: var(--color-border-dark, #15B995);
+  color: var(--color-text-muted-dark, #dddddd);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-muted-dark, #dddddd);
+}
+
+h1::before { color: var(--color-primary-dark, #CF97EF); }
+h2::before { color: var(--color-primary-dark, #CF97EF); }
+h3::before { color: var(--color-primary-dark, #CF97EF); }
+h4::before { color: var(--color-primary-dark, #CF97EF); }
+h5::before { color: var(--color-primary-dark, #CF97EF); }
+h6::before { color: var(--color-primary-dark, #CF97EF); }
+
+.toc {
+  background-color: var(--color-background-toc-dark, #272822);
+  color: var(--color-text-dark, #CECAE0);
+  border-color: var(--color-border-dark, #15B995);
+}
+
+/* Links */
+a {
+  border-block-end: 3px solid var(--color-primary-dark, #CF97EF);
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  background-color: var(--color-primary-dark, #CF97EF);
+  color: #000000;
+  outline-color: var(--color-primary-dark, #CF97EF);
+}
+
+.site-description a {
+  color: var(--color-text-muted-dark, #dddddd);
+}
+
+.site-description a:hover,
+.site-description a:focus {
+  color: #000000;
+}
+
+/* Tags */
+.tags a {
+  border-block-end: 3px solid var(--color-primary-dark, #CF97EF);
+}
+
+.tags a:hover,
+.tags a:focus {
+  background-color: var(--color-primary-dark, #CF97EF);
+  color: #000000;
+}
+
+.site-title a {
+  color: var(--color-text-dark, #CECAE0);
+  text-decoration: none !important;
+}
+
+.header nav,
+footer {
+  border-color: var(--color-border-dark, #15B995);
+}
+
+.highlight {
+  background-color: var(--color-background-pre-dark, #3B334E);
+}
+
+.soc:hover,
+.soc:focus {
+  color: #000000;
+  outline-color: var(--color-primary-dark, #CF97EF);
+}
+
+.draft-label {
+  color: var(--color-text-dark, #CECAE0);
+  background-color: var(--color-background-draft-dark, #3B334E);
+}
+
+/* Tables in dark mode */
+table th {
+  background-color: var(--color-background-pre-dark, #3B334E);
+  color: var(--color-text-dark, #CECAE0);
+  border-color: var(--color-border-dark, #15B995);
+}
+
+table td {
+  border-color: var(--color-border-dark, #15B995);
+  color: var(--color-text-dark, #CECAE0);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--color-background-code-dark, #3B334E);
+}
+
+/* Navigation toggle in dark mode */
+.nav-toggle {
+  color: var(--color-text-dark, #CECAE0);
+}
+
+.nav-toggle:hover,
+.nav-toggle:focus {
+  background-color: var(--color-primary-dark, #CF97EF);
+  color: #000000;
+  outline-color: var(--color-primary-dark, #CF97EF);
+}
+/* Language badges inherit from main.css - no duplicates needed */
+
+/* Callouts in dark mode */
+.callout {
+  background-color: var(--color-background-pre-dark, #3B334E);
+  color: var(--color-text-dark, #CECAE0);
+}
+
+.callout-alert {
+  color: #F0C1CF;
+  background-color: var(--color-background-dark, #202124);
+  border-color: #F0C1CF;
+}
+
+.callout-tip {
+  color: #C1F3F2;
+  background-color: var(--color-background-dark, #202124);
+  border-color: #C1F3F2;
+}
+
+.callout-warning {
+  color: #EFE1C8;
+  background-color: var(--color-background-dark, #202124);
+  border-color: #EFE1C8;
+}
+
+.callout-custom {
+  color: var(--color-text-dark, #CECAE0);
+}
+
+/* Search in dark mode */
+.search-panel,
+.search-result-card {
+  background-color: var(--color-background-pre-dark, #3B334E);
+  border-color: var(--color-border-dark, #15B995);
+}
+
+.search-input,
+kbd {
+  background-color: var(--color-background-code-dark, #3B334E);
+  border-color: var(--color-border-dark, #15B995);
+  color: var(--color-text-dark, #CECAE0);
+}
+
+.search-input:focus {
+  outline-color: var(--color-primary-dark, #CF97EF);
+}
+
+.search-status-error {
+  color: var(--color-error-dark, #EA3F8F);
+}
+
+.search-tag {
+  border-color: var(--color-primary-dark, #CF97EF);
+}
