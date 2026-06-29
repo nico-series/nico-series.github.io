@@ -12,9 +12,16 @@
 			<copyright>© nico-series</copyright>
 		
 		
-			<lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nico-series.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Accessibility Deep Dive: Part 1</title>
+				<link>https://nico-series.github.io/posts/accessibility-part-1/</link>
+				<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://nico-series.github.io/posts/accessibility-part-1/</guid>
+				<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Accessibility is one of those topics that is often looked at in a very narrow sense, and only after a concern is raised, a complaint has been lodged, or money has been lost. I think that there is a critical reason behind this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Organizations aren&amp;rsquo;t framing what accessibility is correctly, and therefore don&amp;rsquo;t understand its value.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Accessibility is the degree of usability for all users, &lt;em&gt;especially&lt;/em&gt; taking into account those with differing needs. At scale this applies to the spaces, services, devices, and technology that we interact with. All of it. The practice of making a given thing (in my case, software) accessible starts with considering how it will be practically used, and how different users will either need or want to approach its use.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Update 2026</title>
 				<link>https://nico-series.github.io/posts/update-2026/</link>
