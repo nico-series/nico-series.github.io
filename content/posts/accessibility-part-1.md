@@ -53,7 +53,7 @@ Many site builders are beginning to include accessibility checks in their toolki
 - [WAVE](https://wave.webaim.org/extension/) - WebAIM's auditing tool
 - [Silktide](https://silktide.com/) - full UX auditing tool with paid and free options
 ## What is to Follow
-This, more or less, was the state of my notes after I spent a day or so looking into accessibility in 2025. This isn't the whole ball game; it's the first throw, and it can be taken in a few different directions in the posts to follow:
+This, more or less, was the state of my notes after I spent a day or so looking into accessibility in 2025. That wasn't my first encounter - I've familiarized myself with web accessibility concepts as they pertain to my work in the past but this foray made it clear that said concepts aren't the full picture. This isn't the whole ball game; it's the first throw, and it can be taken in a few different directions in the posts to follow:
 - What are the specific requirements of the laws and guidelines listed above and how would I go about meeting them? 
 - How does the legal landscape differ, both between the US, CA, and the EU as well as at the province level?
 - For that matter, what about other countries? Businesses are global, the things I will work with may need to be utilized elsewhere. Accessibility applies to location as well.
