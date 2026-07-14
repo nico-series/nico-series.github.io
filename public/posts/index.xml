@@ -12,9 +12,16 @@
 			<copyright>© nico-series</copyright>
 		
 		
-			<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nico-series.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>IBM DevOps Training - Early Thoughts</title>
+				<link>https://nico-series.github.io/posts/ibm-devops-part-1/</link>
+				<pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://nico-series.github.io/posts/ibm-devops-part-1/</guid>
+				<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;A short while ago I decided to pursue the &lt;a href=&#34;https://www.coursera.org/professional-certificates/devops-and-software-engineering&#34;&gt;IBM DevOps and Software Engineering Certificate&lt;/a&gt;. I did this for a few very predictable reasons:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology is always changing, and practitioners must follow suit.&lt;/li&gt;&#xA;&lt;li&gt;DevOps methodologies in particular are relevant to me as they are an iteration on practices I utilized in a previous role.&lt;/li&gt;&#xA;&lt;li&gt;In addition to methods, this training makes use of tools spanning the full range of development - some of which I haven&amp;rsquo;t used before.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This training is estimated to take around 6 months if the trainee puts in around 10 hours a week. As I go, I&amp;rsquo;m going to document my thoughts here and in follow-up posts.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Accessibility Deep Dive: Part 1</title>
 				<link>https://nico-series.github.io/posts/accessibility-part-1/</link>

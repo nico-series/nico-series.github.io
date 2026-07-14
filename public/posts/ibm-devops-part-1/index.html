@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>IBM DevOps Training - Early Thoughts - nico-series</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="In the summer of 2026, I decided to set up my good friends Development and Operations on a blind date." />
+	<meta property="og:image" content="https://nico-series.github.io/"/>
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	
+	<meta property="og:url" content="https://nico-series.github.io/posts/ibm-devops-part-1/">
+	<meta property="og:site_name" content="nico-series">
+	<meta property="og:title" content="IBM DevOps Training - Early Thoughts">
+	<meta property="og:description" content="In the summer of 2026, I decided to set up my good friends Development and Operations on a blind date.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-07-14T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-07-14T00:00:00+00:00">
+		<meta property="article:tag" content="Development">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="IBM DevOps Training - Early Thoughts">
+	<meta name="twitter:description" content="In the summer of 2026, I decided to set up my good friends Development and Operations on a blind date.">
+
+        <link href="https://nico-series.github.io/css/fonts.2097ba450cef93df768a049dad27839d0a290bb968c6cdaf54111fff238c917c.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nico-series.github.io/css/main.bd621b2e0ea145eb6327fe7f4a43b236d372868135565ddb5ec9af16bc6179f2.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://nico-series.github.io/css/dark.a9eddc94d1a8c17955704f413754059ca6052e5814dada3d240941839442f84e.css"  disabled />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://nico-series.github.io/">nico-series</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button"><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg></button>
+		<script src="https://nico-series.github.io/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">IBM DevOps Training - Early Thoughts</h1>
+          <div class="meta">Posted on Jul 14, 2026</div>
+        </div>
+        
+        <section class="body">
+          <h2 id="intro">Intro</h2>
+<p>A short while ago I decided to pursue the <a href="https://www.coursera.org/professional-certificates/devops-and-software-engineering">IBM DevOps and Software Engineering Certificate</a>. I did this for a few very predictable reasons:</p>
+<ul>
+<li>Technology is always changing, and practitioners must follow suit.</li>
+<li>DevOps methodologies in particular are relevant to me as they are an iteration on practices I utilized in a previous role.</li>
+<li>In addition to methods, this training makes use of tools spanning the full range of development - some of which I haven&rsquo;t used before.</li>
+</ul>
+<p>This training is estimated to take around 6 months if the trainee puts in around 10 hours a week. As I go, I&rsquo;m going to document my thoughts here and in follow-up posts.</p>
+<h2 id="my-context-going-into-this">My Context Going Into This</h2>
+<p>While the technology stacks that various organizations use to approach their design challenges are heterogeneous, the strategies they throw at their respective software development lifecycles seem to chase homogeneity. Of the roles I&rsquo;ve recently applied for, around a third mention Agile. Around a tenth mention the <a href="https://aws.amazon.com/what-is/sdlc/">SDLC</a> and/or DevOps. None mention Waterfall (I&rsquo;d be surprised). Last week one mentioned <a href="https://www.gitops.tech/">GitOps</a>! In some ways, these work like fads - a new technique for organizing work will come out and a lead or manager will shave off weeks or years of development time and then every organization has to restructure. Will the trend-setters slow down as methods are perfected? Could there be some foundational misunderstanding about work that causes us to throw all of these methods out one day in favor of something else? Who knows! In the scheme of things, the Industrial Revolution and the following events that kicked a lot of this into motion happened basically yesterday.</p>
+<p>Since my longest role was with a Very Large Company™ with complex team structures and interconnected applications that must work in conjunction with one another, I think it comes as no surprise to the reader that I&rsquo;m familiar with Agile. I was formally trained in <a href="https://www.scrum.org/">Agile Scrum</a>, but on later discussions with my team&rsquo;s scrum master about how our actual process deviated from the standard (the self-organizing aspects were a bit more top down, and we had this thing called a <em>release train</em>) he agreed that our process wasn&rsquo;t standard Scrum and looked a little more like the Scaled Agile Framework (<a href="https://framework.scaledagile.com/">SAFe</a>).</p>
+<p>To go back further, my first encounter with Agile was seeing the <a href="https://agilemanifesto.org/">manifesto</a> open on a coworker&rsquo;s workstation. I can&rsquo;t recall if he was considering pitching it to the rest of the team or satiating personal curiosity. I have fond memories from that role, but I can&rsquo;t say I learned a &ldquo;development process&rdquo;. I can&rsquo;t say the team even used Waterfall because the sites we were working with were at least a decade into maintenance. Looking back, my two cents is that the team was small and Kanban would have sufficed for keeping tasks moving in maintenance. Also, I hope they use version control now. Oh-ho-ho yes, there was no version control! We had the power of <em>prayer</em> in that shop.</p>
+<p>Early on, the reception I recall was that developers hated the amount of meetings it added to their day. I also dislike meetings&hellip; if they are inefficient. Agile caught on regardless of this because when applied to the scenarios it was designed for, it works.</p>
+<h2 id="initial-comments-on-the-training">Initial Comments on the Training</h2>
+<p>To get started, I need to answer what kind of problem DevOps is meant to solve, and in what way that deviates from what I&rsquo;m used to.</p>
+<p>Agile is all about getting a demoable project in front of stakeholders as early on in the development process as possible so that feedback can be gained and direction can be changed in order to minimize time and resource wastage and then iterating on that.</p>
+<p>Once that code is written, it&rsquo;s not done - the code has got to go somewhere, be built, tested, revised, rebuilt, retested, accepted, deployed, and maintained. This is the part that isn&rsquo;t always correctly addressed with Agile alone. This occurs because often, development is one person or team&rsquo;s responsibility, and the responsibility of all-that-other-stuff goes to other people or teams. The problem is silos.</p>
+<p>DevOps aims to integrate these silos, including the ALL of the specialties that go into a given project are co-located on a more expanded idea of a fully cross-functional team. This includes developers, QA, operations, everyone relevant, and extends throughout the project&rsquo;s life. The people developing it need to be the people operating and maintaining it. The remainder is process optimization - if development is meant to go fast, how do we make that happen, and how do we keep fast from equaling sloppy? DevOps says the answer to this is automation - for its speed, for its consistency - applied to building, testing, deploy, and monitoring of the entire architecture.</p>
+<p>The training itself covers the theory and methods as well as the various tools that support this. For me, this means a review of Agile and cloud from IBM&rsquo;s perspective (my introduction was with AWS). It also includes an abundance of other tools and methods spanning <a href="https://github.com/resources/articles/ci-cd">CI/CD</a>. Some of which I&rsquo;m very familiar with, some parts I&rsquo;ve only had indirect involvement with professionally, and some that I haven&rsquo;t touched entirely.</p>
+<h3 id="the-topic">The Topic</h3>
+<p>The training opens with an overview of what DevOps is. My gut response is that it feels exactly like the Agile training I had a few years ago - I&rsquo;m being sold a product. The tools are products,. The culture is a product which reinforces itself and requires training, which is also a product.</p>
+<p>Products have applications, markets, etc. so the key to buying correctly is understanding the market it&rsquo;s for, what correct application looks like and when it&rsquo;s appropriate, as well as if there are competitors and when, if ever, they are better.</p>
+<h3 id="the-delivery">The Delivery</h3>
+<p>The training starts with the conditions surrounding the birth of DevOps. Particularly the who, the when, and the why. For me, usually details like &ldquo;proper noun was done/said/written by this person on this date&rdquo; aren&rsquo;t easily retained. Repetition doesn&rsquo;t really help unless it is spaced out over a period of time, usually longer than standardized testing can account for. Let&rsquo;s consider that I&rsquo;m good at learning a few things:</p>
+<ul>
+<li>Fine motor skills, particularly regarding crafts</li>
+<li>Understanding a technique, especially how something is constructed, painted, or otherwise comes together</li>
+<li>Understanding narratives and motivations, parsing possible dynamics between people and things, walking through cause and effect, and making predictions based on examples I&rsquo;ve seen
+If we make the thing I&rsquo;m bad at more like the thing I&rsquo;m good at, we can succeed at retaining random facts! In this case, I have to have a narrative. To the instructor&rsquo;s credit he did frame the early evolution of DevOps as a narrative, but it was a very Cliffnotes-ed version and with too many proper nouns in quick succession and not as much plot. The result was that I ended up doing far more reading on each individual bullet point thrown in front of me than I imagine the training includes in its time estimate in order to retain the contents of those bullet points and place them in their context.</li>
+</ul>
+<p>That first topic is fortunately brief, the training basically states that the founders and their actions and materials are primarily discussed in order to emphasize that the methodology comes from workers and practitioners and not random spitballing administrators. Understood. I drilled it enough to pass the quizzes and moved on. Later content has had similar issues when it comes to engaging my insatiable rock-flipping, but fortunately is more about processes and techniques and hasn&rsquo;t featured as many names or dates.</p>
+
+<div class='callout callout-' style=''>
+  <div class="callout-inner">
+    
+    💡 Since I&#39;m doing a lot of side reading I think the training will be more of a time investment than it estimates. In this case, this isn&#39;t a bad thing. Each of these topics are valuable, and it means that I&#39;m interested in what I&#39;m learning.
+    
+    </div>
+</div>
+
+<p>The training makes frequent use of quizzes with multiple choice questions - *Gasp*. The questions are often worded weirdly, which comes with the territory. Multiple choice is popular because it is easy to configure and easy to score, so I&rsquo;ll leave that as it is. Aside from that, there&rsquo;s been one instance so far where the content review for a section involved having a discussion with an LLM. It&rsquo;s 2026 - I&rsquo;ve read plenty about LLMs, interacted with them briefly in a few contexts, and discussed them with those that build and train them, but it was fascinating and eerie to experience the sycophancy in a longer duration conversation firsthand. I expect that I&rsquo;ll encounter this evaluation method again.</p>
+<p>It looks like later material will be more hands-on. This is why I picked Coursera - you really can&rsquo;t replace hands-on experience. Early on in the training, an account feature code is generated for accessing student cloud resources, but my code is invalid and customer support hasn&rsquo;t addressed my issue yet. I&rsquo;m 2 tickets in, yay! We&rsquo;ll see how that goes, but I&rsquo;ll look into alternative means to access the resources if necessary because the practical experience is valuable to me.</p>
+<h3 id="final-thoughts-for-now">Final Thoughts (For Now)</h3>
+<p>So far I&rsquo;ve completed the Introduction to DevOps course, and am most of the way through Introduction to Cloud Computing. Has anything changed? A little. Going into this I was under the impression DevOps was about automation and doing CI/CD. I&rsquo;ve had conversations with friends in tech that discuss DevOps as if it is a role someone can have or a team. Now, I understand the first impression is sort of accurate, but doesn&rsquo;t really capture the picture of why it&rsquo;s used and the problem it&rsquo;s trying to solve. I was lacking in context. The second impression now feels like it could be counterproductive outright if it creates the silos that DevOps practices are supposed to remove. The cloud section has been almost entirely review - there&rsquo;s been some &ldquo;ah did I understand that the same way the first time through&rdquo; or &ldquo;wait, AWS and IBM must do XYZ differently&hellip;&rdquo; moments, but they&rsquo;ve been rare.</p>
+<p>Since I&rsquo;m still early on in this training, my opinions are still developing. Updates to follow.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li>Agile Manifesto - <a href="https://agilemanifesto.org/">https://agilemanifesto.org/</a></li>
+<li>Scrum.org (the formal training I did at my last role) - <a href="https://www.scrum.org/">https://www.scrum.org/</a></li>
+<li>SAFe - <a href="https://framework.scaledagile.com/">https://framework.scaledagile.com/</a></li>
+<li>GitOps - <a href="https://www.gitops.tech/">https://www.gitops.tech/</a></li>
+<li>Amazon on the SDLC - <a href="https://aws.amazon.com/what-is/sdlc/">https://aws.amazon.com/what-is/sdlc/</a></li>
+<li>IBM on DevOps - <a href="https://www.ibm.com/think/topics/devops">https://www.ibm.com/think/topics/devops</a></li>
+<li>GitHub on CI/CD - <a href="https://github.com/resources/articles/ci-cd">https://github.com/resources/articles/ci-cd</a></li>
+</ul>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/development/">development</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2026  © nico-series |  <a
+      href="https://github.com/nico-series/archie-nico-ver">Archie (Archie Nico Ver) Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+
+</div>
+    </body>
+</html>
