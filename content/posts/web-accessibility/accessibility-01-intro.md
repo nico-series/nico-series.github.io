@@ -1,10 +1,10 @@
 ---
-title: "Accessibility Deep Dive: Part 1"
-description: Let's outline our starting point for this series on accessibility.
+title: "Web Accessibility Deep Dive: Intro"
+description: Part 1 of my series on Web Accessibility. Let's outline our starting point for this series on accessibility.
 date: 2026-06-28
-modified: 2026-06-28
+modified: 2026-10-13
 draft: false
-tags: [design, development]
+tags: [design, development, accessibility]
 ---
 
 ## Intro
@@ -27,7 +27,7 @@ Consider that accessibility can _vary by the device being used_. A site that is 
 
 Lastly, even if it isn't the primary target, it can be useful to consider that even if a user doesn't have a disability, they may need or prefer to use your invention in unconventional ways. For example, if a user has disruptive responsibilities - think children - they may have difficulty completing tasks in one sitting. In that case, allowing users to save form data or pause an activity could go a long way. I don't have kids but I could imagine how such a thing could assist me - think of how many times you may have accidentally refreshed an involved form and then had to refill it, or clicked a supplementary document on a page only to find out you clicked away from the page and lost all your progress. Improving accessibility raises the standard for everyone, not just the targeted communities. 
 
-I'll say this because you likely do not know me - I think that we should seek to ensure that the things we make are widely accessible even if the money incentive isn't there, _but I'm going to die on the hill that I believe the incentive IS there._ If you make a product or provide a service that is better for some, nine times out of ten it'll make a product or service that is better for all. 
+I'll say this because you likely do not know me - I think that we should seek to ensure that the things we make are widely accessible even if the money incentive isn't there, _but I'm going to stand on the hill that I believe an incentive IS there._ If you make a product or provide a service that is better for some, nine times out of ten it'll make a product or service that is better for all. 
 
 I don't like flashing lights, movement, noise, or often even bright colors. If I'm surprised by these things, I may struggle to process how to remove them quickly, and _I'll run from your site rather than try to figure out how._ This is an entirely reasonable response! 
 ## Standards and Enforcers
@@ -59,6 +59,8 @@ This, more or less, was the state of my notes after I spent a day or so looking 
 - For that matter, what about other countries? Businesses are global, the things I will work with may need to be utilized elsewhere. Accessibility applies to location as well.
 - In what way are the laws potentially deficient? Should I build things that exceed them?
 - Explore auditing: how do each of the auditing tools above work, and when should I use them? Are there other tools? Are there ways in which the tools fail to assess accessibility?
+
+Continue reading here with my introduction to the web accessibility legal landscape and developments in the United Nations: [Web Accessibility Deep Dive: Legislation Lifecycles & The UN](https://nico-series.github.io/posts/accessibility-02-legal-landscape/).
 ## Links
 - A11y Project: https://www.a11yproject.com/
 - IAAP: https://www.accessibilityassociation.org/

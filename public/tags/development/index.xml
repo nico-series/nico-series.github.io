@@ -12,9 +12,23 @@
 			<copyright>© nico-series</copyright>
 		
 		
-			<lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nico-series.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Web Accessibility Deep Dive: India</title>
+				<link>https://nico-series.github.io/posts/web-accessibility/accessibility-03-india/</link>
+				<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://nico-series.github.io/posts/web-accessibility/accessibility-03-india/</guid>
+				<description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;&#xA;&lt;p&gt;Hi all! Continuing the post series &lt;a href=&#34;https://nico-series.github.io/posts/accessibility-01-intro/&#34;&gt;Web Accessibility Deep Dive&lt;/a&gt; and following up on the introduction to this segment on the legal landscape of web accessibility in &lt;a href=&#34;https://nico-series.github.io/posts/accessibility-02-legal-landscape/&#34;&gt;Web Accessibility Deep Dive: Legislation Lifecycles &amp;amp; The UN&lt;/a&gt;, we&amp;rsquo;re going to take a look at India.&lt;/p&gt;&#xA;&lt;p&gt;I think it would be an understatement to say that there is anything less than a highway of technical expertise and practices between India, Canada, and the USA. Ideas in one will osmose to the others, and India is very much carving out more and more real estate in software and the decisions impacting those that use it. I will begin here.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Web Accessibility Deep Dive: Legislation Lifecycles &amp; The UN</title>
+				<link>https://nico-series.github.io/posts/web-accessibility/accessibility-02-legal-landscape/</link>
+				<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://nico-series.github.io/posts/web-accessibility/accessibility-02-legal-landscape/</guid>
+				<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Hi all! This is a follow up from my first post in this series: &lt;a href=&#34;https://nico-series.github.io/posts/accessibility-01-intro/&#34;&gt;Web Accessibility Deep Dive: Intro&lt;/a&gt;. In this segment of the series I&amp;rsquo;ll go over the history of legislation concerning web accessibility, including some general disability and human rights developments. It ended up being fairly long so I&amp;rsquo;ll be breaking it into multiple posts for readability. Details on standards, compliance, and tools (the &lt;em&gt;HOW&lt;/em&gt; to do accessibility) will follow later.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>IBM DevOps Training - Early Thoughts</title>
 				<link>https://nico-series.github.io/posts/ibm-devops-part-1/</link>
@@ -23,10 +37,10 @@
 				<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;A short while ago I decided to pursue the &lt;a href=&#34;https://www.coursera.org/professional-certificates/devops-and-software-engineering&#34;&gt;IBM DevOps and Software Engineering Certificate&lt;/a&gt;. I did this for a few very predictable reasons:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology is always changing, and practitioners must follow suit.&lt;/li&gt;&#xA;&lt;li&gt;DevOps methodologies in particular are relevant to me as they are an iteration on practices I utilized in a previous role.&lt;/li&gt;&#xA;&lt;li&gt;In addition to methods, this training makes use of tools spanning the full range of development - some of which I haven&amp;rsquo;t used before.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This training is estimated to take around 6 months if the trainee puts in around 10 hours a week. As I go, I&amp;rsquo;m going to document my thoughts here and in follow-up posts.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Accessibility Deep Dive: Part 1</title>
-				<link>https://nico-series.github.io/posts/accessibility-part-1/</link>
+				<title>Web Accessibility Deep Dive: Intro</title>
+				<link>https://nico-series.github.io/posts/web-accessibility/accessibility-01-intro/</link>
 				<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://nico-series.github.io/posts/accessibility-part-1/</guid>
+				<guid>https://nico-series.github.io/posts/web-accessibility/accessibility-01-intro/</guid>
 				<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Accessibility is one of those topics that is often looked at in a very narrow sense, and only after a concern is raised, a complaint has been lodged, or money has been lost. I think that there is a critical reason behind this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Organizations aren&amp;rsquo;t framing what accessibility is correctly, and therefore don&amp;rsquo;t understand its value.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Accessibility is the degree of usability for all users, &lt;em&gt;especially&lt;/em&gt; taking into account those with differing needs. At scale this applies to the spaces, services, devices, and technology that we interact with. All of it. The practice of making a given thing (in my case, software) accessible starts with considering how it will be practically used, and how different users will either need or want to approach its use.&lt;/p&gt;</description>
 			</item>
 			<item>
