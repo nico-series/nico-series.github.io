@@ -8,7 +8,7 @@ tags: [design, development, accessibility]
 ---
 
 # Intro
-Hi all! Continuing the post series [Web Accessibility Deep Dive](https://nico-series.github.io/posts/web-accessibility/accessibility-01-intro/) and following up on the introduction to this segment on the legal landscape of web accessibility in [Web Accessibility Deep Dive: Legislation Lifecycles & The UN](https://nico-series.github.io/posts/web-accessibility/accessibility-02-legal-landscape/), we're going to take a look at India.
+Hi all! Continuing the post series [Web Accessibility Deep Dive](/posts/web-accessibility/accessibility-01-intro/) and following up on the introduction to this segment on the legal landscape of web accessibility in [Web Accessibility Deep Dive: Legislation Lifecycles & The UN](/posts/web-accessibility/accessibility-02-legal-landscape/), we're going to take a look at India.
 
 I think it would be an understatement to say that there is anything less than a highway of technical expertise and practices between India, Canada, and the USA. Ideas in one will osmose to the others, and India is very much carving out more and more real estate in software and the decisions impacting those that use it. I will begin here. 
 # Development

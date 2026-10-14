@@ -8,7 +8,7 @@ tags: [design, development, accessibility]
 ---
 
 ## Intro
-Hi all! This is a follow up from my first post in this series: [Web Accessibility Deep Dive: Intro](https://nico-series.github.io/posts/web-accessibility/accessibility-01-intro/). In this segment of the series I'll go over the history of legislation concerning web accessibility, including some general disability and human rights developments. It ended up being fairly long so I'll be breaking it into multiple posts for readability. Details on standards, compliance, and tools (the _HOW_ to do accessibility) will follow later.
+Hi all! This is a follow up from my first post in this series: [Web Accessibility Deep Dive: Intro](/posts/web-accessibility/accessibility-01-intro/). In this segment of the series I'll go over the history of legislation concerning web accessibility, including some general disability and human rights developments. It ended up being fairly long so I'll be breaking it into multiple posts for readability. Details on standards, compliance, and tools (the _HOW_ to do accessibility) will follow later.
 
 Oftentimes people go into specific fields because of their background - they think XYZ field can help them contribute in some way. Early on in my software career I came to the conclusion that the tools I build _should_ make other people's work and lives better, easier, or more enjoyable, so - full disclosure - this post is from the perspective of someone that _wants laws and practices that serve those ends_. Since I've lived in Canada and the USA my focus will be there, but for perspective I'll be casting a wide net both geographically and topically. As I write my post there are a few different potentially relevant political upheavals occurring and the potential for a Canadian "Associate" status within the EU, so this approach feels more and more appropriate as I go.
 ### My Process
@@ -55,7 +55,7 @@ This convention was key because member states that ratified it were obliged to i
 
 At time of writing,164 out of 194 member states have signed the CRPD. Record is kept of signing date and any statements on the UN treaty [depositary](https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15&chapter=4&clang=_en).
 ## Next
-The series continues with a look at India in [Web Accessibility Deep Dive: India](https://nico-series.github.io/posts/web-accessibility/accessibility-03-india/).
+The series continues with a look at India in [Web Accessibility Deep Dive: India](/posts/web-accessibility/accessibility-03-india/).
 ## Links
 - Universal Declaration of Human Rights: https://www.un.org/en/about-us/universal-declaration-of-human-rights
 - UN Early Disability History: https://www.un.org/development/desa/disabilities/history-of-united-nations-and-persons-with-disabilities-the-decade-of-the-nineties.html

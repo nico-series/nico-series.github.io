@@ -60,7 +60,7 @@ This, more or less, was the state of my notes after I spent a day or so looking 
 - In what way are the laws potentially deficient? Should I build things that exceed them?
 - Explore auditing: how do each of the auditing tools above work, and when should I use them? Are there other tools? Are there ways in which the tools fail to assess accessibility?
 
-Continue reading here with my introduction to the web accessibility legal landscape and developments in the United Nations: [Web Accessibility Deep Dive: Legislation Lifecycles & The UN](https://nico-series.github.io/posts/web-accessibility/accessibility-02-legal-landscape/).
+Continue reading here with my introduction to the web accessibility legal landscape and developments in the United Nations: [Web Accessibility Deep Dive: Legislation Lifecycles & The UN](/posts/web-accessibility/accessibility-02-legal-landscape/).
 ## Links
 - A11y Project: https://www.a11yproject.com/
 - IAAP: https://www.accessibilityassociation.org/
