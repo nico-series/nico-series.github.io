@@ -5,6 +5,13 @@ theme = 'archie-nico-ver'
 copyright = "© nico-series"
 [params]
     mode = 'toggle'
+[outputs]
+    home = ['html', 'rss']
+    section = ['html']
+    taxonomy = ['html']
+    term = ['html']
+[services.rss]
+    limit = 20
 
 [[menu.main]]
 name = "Home"
